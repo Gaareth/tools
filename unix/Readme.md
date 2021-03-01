@@ -1,9 +1,9 @@
-### Tools
+# Tools
 
 A list of some tools I've written which may be helpful
 
 
-# konsole-dynamic-color.py
+### konsole-dynamic-color.py
 Python script to update your konsole background color according to your current aurorae theme.
 
 ![konsole-demo](https://user-images.githubusercontent.com/36819644/109566378-0f22c080-7ae4-11eb-8132-b916d10e3c95.gif)
