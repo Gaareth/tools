@@ -43,7 +43,7 @@ def get_aurorae_theme():
 
 
 def extract_color(theme_name, auto):
-    theme_path = f'/home/gareth/.local/share/aurorae/themes/{theme_name}/decoration.svg'
+    theme_path = f'{os.path.expanduser("~")}/.local/share/aurorae/themes/{theme_name}/decoration.svg'
     if not os.path.isfile(theme_path):
         print(f"The theme '{theme_name}' could not be found! \n"
               f"Please check if a file named '{theme_path}' exists.")
